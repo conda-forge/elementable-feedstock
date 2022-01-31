@@ -1,5 +1,5 @@
 {% set name = "elementable" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0da72240520fa6a6b3a49c9774965e67e1a729be6a991c04757ab0235e513f0f
+  sha256: eb7b64dbb8b5f56f07072abf3e4418e52e5a983c59a56282bab1bb1b2fc84fd3
 
 build:
   noarch: python
